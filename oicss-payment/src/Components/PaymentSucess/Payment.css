@@ -1,0 +1,26 @@
+.Payment-body{
+background-color: #00BBDC;
+height: 100vh;
+color:white;
+}
+img{
+    height: 275px;
+    width: 275px;
+}
+.btn-customer{
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    color:#00BBDC;
+    background-color: white;
+}
+.btn-cancel{
+    background-color:#00BBDC;
+    padding: 10px 10px 10px 10px;
+    border:2px white solid;
+    border-radius: 25px;
+    color: white;
+}
+.paymentimg{
+    margin: 10px;
+    
+}

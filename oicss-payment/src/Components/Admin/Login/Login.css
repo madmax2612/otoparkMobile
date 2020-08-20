@@ -1,0 +1,58 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logindiv{
+    padding:30px;
+    background-color: #F7FAFC;
+    margin: 30px;
+    border-radius: 5px;
+    z-index: 9999;
+}
+.loginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcometext{
+    color: black;
+}
+.btn-form{
+    border-radius: 25px;
+    color:white;
+    background-color: #00BBDC;
+    margin: 5px;
+}
+.btn-form:hover{
+    color: #00BBDC;
+    background-color: white;
+    border:2px solid #00BBDC;
+}
+#smalltxt{
+    font-size: 10px;
+}
+/* img{
+    width: 187px;
+    height: 187px;
+} */
+.request-text{
+    color: #00BBDC;
+    text-decoration: underline;
+    
+}
+#forminput{
+    margin: 5px;
+    background-color: #F0F5F7;
+    border:none;
+}
+#mainDiv{
+    background-color: #00BBDC;
+    height: 100vh;
+}
+
+.forgotCheck{
+    margin: 5px;
+    display:flex;
+    justify-content:space-between
+}

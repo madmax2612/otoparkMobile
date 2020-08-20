@@ -1,0 +1,27 @@
+.login{
+    padding:20px;
+}
+.loginForm{
+    padding:15px;
+}
+.welcometext{
+    color: #00BBDC;
+}
+.btn-form{
+    border-radius: 25px;
+    color:white;
+    background-color: #00BBDC;
+}
+/* img{
+    width: 187px;
+    height: 187px;
+} */
+.request-text{
+    color: #00BBDC;
+    text-decoration: underline;
+    
+}
+#forminput{
+    background-color: #F0F5F7;
+    border:none;
+}

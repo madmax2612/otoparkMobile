@@ -1,0 +1,138 @@
+::-webkit-scrollbar {
+    width: 2px !important;
+    color: #00BBDC;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #00BBDC; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00BBDC; 
+  }
+
+.parkingbody{
+    height: 70vh;
+}
+div.scrollmenu {
+    
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #fff;
+  }
+
+  #body{
+      border-radius: 15px;
+      padding:20px;
+      border-bottom: 1px solid #EFEFEF;
+  }
+ #icon{
+     border: 1px solid black;
+     padding: 15px;
+     border-radius: 5px;
+ }
+  h4{
+    padding:10px;
+    color: #00BBDC;
+  }
+#textborder{
+        background-color: #F0F5F7;
+        padding: 10px;
+        border: 1px solid #00BBDC;
+}
+#spanpadding{
+    font-weight: 700;
+    padding-right: 5px;
+}
+#amountdiv{
+    display: flex;
+    justify-content: space-between;
+    /* background-color:#00BBDC; */
+    font-weight: 500;
+    padding: 20px;
+    /* color:#00BBDC; */
+    /* border-radius: 10px; */
+    /* width: 100%; */
+}
+#divspace{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding:10px;
+    border-bottom: 1px solid #00BBDC;
+}
+#Amountbody{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding:30px;
+}
+#tabcolor.active{
+    background-color: #00BBDC;
+    color:white;
+}
+.btn-color{
+    padding: 20px;
+    background-color: #00BBDC;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 2px !important;
+    color: #00BBDC;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #00BBDC; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00BBDC; 
+  }
+  div.scrollmenu {
+    
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #fff;
+  }
+  .scrollmenupayment{
+    height: 600px;
+    overflow-y: scroll;
+  }
+  #collapse:focus{
+      text-decoration: none;
+      color: #00BBDC;
+  }

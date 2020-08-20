@@ -1,0 +1,131 @@
+::-webkit-scrollbar {
+    width: 2px !important;
+    color: #00BBDC;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #00BBDC; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00BBDC; 
+  }
+
+
+div.scrollmenu {
+    
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #fff;
+  }
+
+  #body{
+      border-radius: 15px;
+      padding:30px;
+      border-bottom: 1px solid #EFEFEF;
+      /* margin-bottom: 30px; */
+  }
+ #icon{
+     border: 1px solid black;
+     padding: 15px;
+     border-radius: 5px;
+ }
+  h4{
+    padding:10px;
+    color: #00BBDC;
+  }
+#textborder{
+        background-color: #F0F5F7;
+        padding: 10px;
+        border: 1px solid #00BBDC;
+}
+#spanpadding{
+    font-weight: 700;
+    padding-right: 5px;
+}
+#amountdiv{
+    display: flex;
+    justify-content: space-between;
+    background-color:#00BBDC;
+    font-weight: 700;
+    padding: 20px;
+    color:white;
+    border-radius: 10px;
+    width: 100%;
+}
+#Amountbody{
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+    border-bottom: 1px solid #EFEFEF;
+}
+#tabcolor.active{
+    background-color: #00BBDC;
+    color:white;
+}
+.btn-color{
+    padding: 5px;
+    background-color: #00BBDC;
+    color: #fff;
+}
+#tabcolor{
+  border:1px solid #CAD0D6;
+  background-color: #EDF2F8;
+  font-size: 12px;
+  margin:5px
+}
+
+#tabcolor:focus{
+  cursor: pointer;
+  }
+#tabcolor:hover{
+cursor: pointer;
+}
+
+#headingOne{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  }   
+  #icon-down{
+      font-size: 10px;
+  }
+  #btn-collapsible{
+      
+      color:#00BBDC
+  }
+  #GetinBody{
+    margin-bottom: 120px;
+  }
+  #header{
+  background-color: white;
+  }
+
+  #header:focus{
+    background-color: white;
+    border: none;
+    }
+#header:visited{
+background-color: white;
+border: none;
+}
+#collapse-body-parking-price{
+  padding:25px;
+}  

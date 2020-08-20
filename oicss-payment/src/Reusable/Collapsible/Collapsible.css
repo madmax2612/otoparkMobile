@@ -1,0 +1,11 @@
+#headingOne{
+display: flex;
+background-color: white;
+justify-content: space-between;
+}   
+#icon-down{
+    font-size: 10px;
+}
+#btn-collapsible{
+    color:#00BBDC
+}

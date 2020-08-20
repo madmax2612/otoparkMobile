@@ -1,0 +1,32 @@
+#text
+{
+    padding:5px
+}
+#headingOne
+{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}   
+#btn-collapsible{
+      
+    color:#00BBDC
+}
+#GetinBody{
+  margin-bottom: 120px;
+}
+#header{
+background-color: white;
+}
+
+#header:focus{
+  background-color: white;
+  border: none;
+  }
+#header:visited{
+background-color: white;
+border: none;
+}
+#collapse-body-parking-price{
+padding:25px;
+}  

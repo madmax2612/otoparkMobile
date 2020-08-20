@@ -1,0 +1,15 @@
+#AboutText{
+    color:#00BBDC;
+}
+#query{
+    margin-top: 60px;
+    font: bold;
+    font-weight: 600;
+}
+#about{
+    background-color: #00BBDC;
+    color:white;
+    padding: 10px;
+    margin-top:15px;
+    border-radius: 20px;
+}

@@ -1,0 +1,85 @@
+.login {
+  padding: 20px;
+}
+.loginForm {
+  padding: 15px;
+}
+.welcometext {
+  color: #00bbdc;
+}
+.btn-form {
+  border-radius: 25px;
+  color: white;
+  background-color: #00bbdc;
+}
+/* img{
+    width: 187px;
+    height: 187px;
+} */
+.request-text {
+  color: #00bbdc;
+  text-decoration: underline;
+}
+#forminput {
+  background-color: #f0f5f7;
+  border: 2px solid #00bbdc;
+}
+
+#more-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* date picker */
+.customDatePickerWidth,
+.customDatePickerWidth > div.react-datepicker-wrapper,
+.customDatePickerWidth
+  > div
+  > div.react-datepicker__input-container
+  .customDatePickerWidth
+  > div
+  > div.react-datepicker__input-container
+  input {
+  width: 100%;
+  height: 100%;
+}
+.react-datepicker__input-container {
+  width: inherit;
+  height: inherit;
+}
+.react-datepicker__input-container input {
+  width: inherit;
+  height: 100%;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+/* padding */
+/* .react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list {
+  padding: 10px !important;
+} */
+
+/* padding */
+button {
+  padding: 6px 10px 5px;
+  /* text-align: center; */
+  font-size: 23px;
+  z-index: 9999;
+  background-color: #f0f5f7;
+  font-weight: bold;
+  color: #00bbdc;
+  /* border-radius: 30px; */
+  border-bottom: 2px solid #00bbdc;
+  border-left: 2px solid #00bbdc;
+  border-right: 2px solid #00bbdc;
+  border-top: 2px solid #00bbdc;
+  /* &:focus {
+    outline: none;
+  } */
+}

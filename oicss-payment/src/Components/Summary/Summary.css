@@ -1,0 +1,52 @@
+#Summarybody {
+  /* display: flex; */
+  background-color: #00bbdc;
+  height: 50vh;
+  padding: 30px 80px 20px 30px;
+  width: 100%;
+}
+#initialcontainer {
+  /* padding:30px 80px 20px 30px; */
+  width: 100%;
+}
+.menudrop {
+  border-radius: 20px;
+  background-color: white;
+  color: #00bbdc;
+}
+.menudrop1 {
+  color: #00bbdc;
+}
+.menudrop:focus {
+  background-color: white;
+  color: #00bbdc;
+}
+.menudrop1:hover {
+  background-color: #00bbdc;
+  color: white;
+}
+#revenue {
+  padding-top: 30px;
+  color: white;
+}
+#bottomcontent {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  border: 1px solid #0000001a;
+  /* border-bottom: none; */
+  border-radius: 0px 0px;
+  background-color: white;
+}
+#contentdiv {
+  /* display: flex; */
+  margin-left: 15px;
+}
+#contentprice {
+  /* display: flex; */
+  margin-right: 150px;
+}
+#btnPrint {
+  border-radius: "20px";
+  background-color: "red";
+}

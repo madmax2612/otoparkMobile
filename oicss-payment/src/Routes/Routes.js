@@ -37,6 +37,7 @@ export const Routes = () => {
                     <Route exact path="/oicss/admin/getin" component={GetInAdmin} />
                     <Route exact path="/oicss/admin/getout" component={GetOutAdmin} />
                     <Route exact path="/oicss/admin/more" component={MoreAdmin} />
+                    <Route exact path="/oicss/loader" component={Loader} />
                     <Route exact path="*" component={NotFound} />
                 </Switch>
             </Suspense>

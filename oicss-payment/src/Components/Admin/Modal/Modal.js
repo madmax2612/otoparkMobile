@@ -32,9 +32,7 @@ export default class Modal extends Component {
                                 <div>
                                     Continue Payment?
                                                 </div>
-                                <div>
-                                    (Press YES to continue)
-                                                </div>
+                            
                             </div>
                             <div class="modal-footer" style={{ border: "1px solid #00C569" }}>
                                 <button type="button" class="btn" data-dismiss="modal" style={{ color: "#F7FE31" }}>LATER</button>

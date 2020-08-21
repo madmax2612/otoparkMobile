@@ -141,87 +141,95 @@ export const Form = props => {
             </>
           )}
 
-          <div id="more-info">
-            <div style={{ color: "#00BBDC" }}>More Information</div>
+          {/* <div id="more-info">
+            <div style={{ color: "#00BBDC" }}>Enter Details</div> */}
             {show ? (
+              <>
+              <div id="more-info" onClick={() => setShow(false)}>
+              <div style={{ color: "#00BBDC" }}>Enter Details</div>
               <div onClick={() => setShow(false)}>
                 <i class="fa fa-minus"></i>
               </div>
+              </div>
+                         
+                         <div>
+                           <label for="name">Vehicle Owner Name </label>
+                         </div>
+                         <div class="input-group mb-3">
+                           <input
+                             class="form-control"
+                             type="password"
+                             id="forminput"
+                            //  placeholder={props.data ? "Username" : ""}
+                             name="vehicleownername"
+                             ref={register({ required: true, maxLength: 30 })}
+                             disabled={props.data ? true : false}
+                           />
+                         </div>
+           
+                         {errors.Password && errors.Password.type === "required" && (
+                           <div
+                             className="container"
+                             style={{ margin: "10px", color: "red" }}
+                           >
+                             <div className="row">
+                               <i
+                                 class="fa fa-exclamation-triangle"
+                                 aria-hidden="true"
+                                 style={{ margin: "5px" }}
+                               ></i>
+                               <span>Vehicle Owner Number cannot be Empty</span>
+                             </div>
+                           </div>
+                         )}
+           
+                         <div>
+                           <label for="name">Vehicle Owner Number </label>
+                         </div>
+                         <div class="input-group mb-3">
+                           <input
+                             class="form-control"
+                             type="password"
+                             id="forminput"
+                             name="vehicleownernumber"
+                             placeholder={props.data ? "Vehicleowner" : ""}
+                             ref={register({ required: true, maxLength: 30 })}
+                             disabled={props.data ? true : false}
+                           />
+                         </div>
+           
+                         {errors.Password && errors.Password.type === "required" && (
+                           <div
+                             className="container"
+                             style={{ margin: "10px", color: "red" }}
+                           >
+                             <div className="row">
+                               <i
+                                 class="fa fa-exclamation-triangle"
+                                 aria-hidden="true"
+                                 style={{ margin: "5px" }}
+                               ></i>
+                               <span>Vehicle Owner Number cannot be Empty</span>
+                             </div>
+                           </div>
+                         )}
+                      
+           </>
             ) : (
+              <div id="more-info" onClick={() => setShow(true)}>
+            <div style={{ color: "#00BBDC" }}>Enter Details</div>
               <div onClick={() => setShow(true)}>
                 <i class="fa fa-plus"></i>
+              </div>
               </div>
             )}
           </div>
           {show ? (
-            <>
-              <div>
-                <label for="name">Vehicle Owner Name </label>
-              </div>
-              <div class="input-group mb-3">
-                <input
-                  class="form-control"
-                  type="password"
-                  id="forminput"
-                  placeholder={props.data ? "Username" : ""}
-                  name="vehicleownername"
-                  ref={register({ required: true, maxLength: 30 })}
-                  disabled={props.data ? true : false}
-                />
-              </div>
-
-              {errors.Password && errors.Password.type === "required" && (
-                <div
-                  className="container"
-                  style={{ margin: "10px", color: "red" }}
-                >
-                  <div className="row">
-                    <i
-                      class="fa fa-exclamation-triangle"
-                      aria-hidden="true"
-                      style={{ margin: "5px" }}
-                    ></i>
-                    <span>Vehicle Owner Number cannot be Empty</span>
-                  </div>
-                </div>
-              )}
-
-              <div>
-                <label for="name">Vehicle Owner Number </label>
-              </div>
-              <div class="input-group mb-3">
-                <input
-                  class="form-control"
-                  type="password"
-                  id="forminput"
-                  name="vehicleownernumber"
-                  placeholder={props.data ? "Vehicleowner" : ""}
-                  ref={register({ required: true, maxLength: 30 })}
-                  disabled={props.data ? true : false}
-                />
-              </div>
-
-              {errors.Password && errors.Password.type === "required" && (
-                <div
-                  className="container"
-                  style={{ margin: "10px", color: "red" }}
-                >
-                  <div className="row">
-                    <i
-                      class="fa fa-exclamation-triangle"
-                      aria-hidden="true"
-                      style={{ margin: "5px" }}
-                    ></i>
-                    <span>Vehicle Owner Number cannot be Empty</span>
-                  </div>
-                </div>
-              )}
-            </>
-          ) : (
+           <></>          ) : (
             ""
           )}
         </div>
-      </div>
+      {/* </div> */}
     </form>
   );
 };

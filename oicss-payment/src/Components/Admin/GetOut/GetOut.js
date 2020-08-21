@@ -53,50 +53,46 @@ export default class More extends Component {
                                 <div class="row">
                                     <div class="col-lg-6 col-sm-12">
                                         <div id="">
-                                            Booking Number <span style={{color:'red'}}>*</span>
-                                    </div>
-                                       
-                                        <div id="text">
-                                        <div class="input-group mb-3" >
- 
-                                        <input type="text" 
-                                        id="textborder"
-                                        class="form-control" 
-                                        // placeholder="Username" 
-                                        aria-label="Username" 
-                                        defaultValue="555162A-K20" 
-                                        aria-describedby="basic-addon1"/>
+                                            Booking Number <span style={{ color: 'red' }}>*</span>
                                         </div>
-                                        {/* <span id="spanpadding">
-                                            Krishna Reddy
-                                        </span> */}
+
+                                        <div id="text">
+                                            <div class="input-group mb-3" >
+
+                                                <input type="text"
+                                                    id="textborder"
+                                                    class="form-control"
+                                                    // placeholder="Username" 
+                                                    aria-label="Username"
+                                                    defaultValue="555162A-K20"
+                                                    aria-describedby="basic-addon1" />
+                                            </div>
+                                           
+                                        </div>
+
                                     </div>
-                                
-                                                                       </div>
-                                    
+
                                     <div class="col-lg-6 col-sm-12">
                                         <div id="">
-                                            Vehicle Number  <span style={{color:'red'}}>*</span>
-                                </div>
-                                    <div id="text">
-                                        <div class="input-group mb-3" >
- 
-                                        <input 
-                                        type="text" 
-                                        id="textborder"
-                                        class="form-control" 
-                                        // placeholder="Username" 
-                                        aria-label="Username" 
-                                        defaultValue="HR 26 DQ 5551" 
-                                        aria-describedby="basic-addon1"/>
+                                            Vehicle Number  <span style={{ color: 'red' }}>*</span>
                                         </div>
-                                        {/* <span id="spanpadding">
-                                            Krishna Reddy
-                                        </span> */}
+                                        <div id="text">
+                                            <div class="input-group mb-3" >
+
+                                                <input
+                                                    type="text"
+                                                    id="textborder"
+                                                    class="form-control"
+                                                    // placeholder="Username" 
+                                                    aria-label="Username"
+                                                    defaultValue="HR 26 DQ 5551"
+                                                    aria-describedby="basic-addon1" />
+                                            </div>
+                                           
+                                        </div>
+
                                     </div>
-                                
-                                                                       </div>
-                            </div>
+                                </div>
                             </div>
 
                             <div className="container" id="body">
@@ -105,77 +101,63 @@ export default class More extends Component {
                                         <div id="text">
                                             Vehicle Owner Name
                                 </div>
-                                <div id="text">
-                                        <div class="input-group mb-3" >
- 
-                                        <input 
-                                        type="text" 
-                                        id="textborder"
-                                        class="form-control" 
-                                        // placeholder="Username" 
-                                        aria-label="Username" 
-                                        defaultValue="Krishna" 
-                                        aria-describedby="basic-addon1"/>
+                                        <div id="text">
+                                            <div class="input-group mb-3" >
+
+                                                <input
+                                                    type="text"
+                                                    id="textborder"
+                                                    class="form-control"
+                                                    // placeholder="Username" 
+                                                    aria-label="Username"
+                                                    defaultValue="Krishna"
+                                                    aria-describedby="basic-addon1" />
+                                            </div>
+                                          
                                         </div>
-                                        {/* <span id="spanpadding">
-                                            Krishna Reddy
-                                        </span> */}
-                                    </div>
 
                                     </div>
                                     <div className="col-lg-6 col-sm-12" >
                                         <div id="text">
                                             Vehicle Number
                                 </div>
-                                <div id="text">
-                                        <div class="input-group mb-3" >
- 
-                                        <input 
-                                        type="text" 
-                                        id="textborder"
-                                        class="form-control" 
-                                        // placeholder="Username" 
-                                        aria-label="Username" 
-                                        defaultValue="Krishna" 
-                                        aria-describedby="basic-addon1"/>
+                                        <div id="text">
+                                            <div class="input-group mb-3" >
+
+                                                <input
+                                                    type="text"
+                                                    id="textborder"
+                                                    class="form-control"
+                                                    // placeholder="Username" 
+                                                    aria-label="Username"
+                                                    defaultValue="Krishna"
+                                                    aria-describedby="basic-addon1" />
+                                            </div>
+
                                         </div>
-                                        {/* <span id="spanpadding">
-                                            Krishna Reddy
-                                        </span> */}
-                                    </div>
 
 
                                     </div>
                                 </div>
 
-                                {/* <button type="button" class="btn btn-primary" >
-                                    Launch demo modal
-                                </button> */}
 
 
-                                
+
+
 
                             </div>
-                            {/* <div className="container" style={{
-                                position: "absolute",
-                                right: "0",
-                                bottom: "0",
-                                paddingBottom: "20px"
-                            }}>
-                                <BottomTabAdmin tabval={this.state.tabval} _handleTabClick={this._handleTabClick} />
-                            </div> 
-                            */}
+
                             <div className="container" id="mobile-Bottom-GetOut">
                                 <BottomTabAdmin id="mobile-Bottom-GetOut" tabval={this.state.tabval} _handleTabClick={this._handleTabClick} />
                             </div>
                             <div className="container" id="more-bottom-desktop"
-                           style={{
-                            marginBottom:"20px",
-                            position: "absolute",
-                            right:    "0",
-                            bottom:   "0"
-                           }}
-                           >
+                                style={{
+                                    marginBottom: "20px",
+                                    position: "absolute",
+                                    right: "0",
+                                    bottom: "0"
+                                }}
+                            >
                                 <BottomTabAdmin tabval={this.state.tabval} _handleTabClick={this._handleTabClick} />
                             </div>
                         </div>

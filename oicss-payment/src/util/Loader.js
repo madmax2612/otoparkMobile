@@ -5,7 +5,7 @@ export const Loader = () => {
 <>
     <div className="loader ">
       <div className="row ">
-        <div className="col-lg-4 col-sm-12 col-md-12">
+        <div className="col-lg-12 col-sm-12 col-md-12">
           <div className="row">
             <div class="text-center">
               <div class="spinner-grow text-primary" role="status">

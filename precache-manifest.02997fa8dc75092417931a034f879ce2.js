@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d058283cf8b638e1b7c0c3633a709a8",
+    "revision": "08e0bfc36b586901362352c580f3f4a0",
     "url": "/otoparkMobile/index.html"
   },
   {
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/otoparkMobile/static/css/9.7924acbf.chunk.css"
   },
   {
-    "revision": "04ae306903e4dd4af8c6",
+    "revision": "8ed230dad84f2710d4c1",
     "url": "/otoparkMobile/static/css/main.bad304f6.chunk.css"
   },
   {
@@ -152,8 +152,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/otoparkMobile/static/js/9.1f61c205.chunk.js"
   },
   {
-    "revision": "04ae306903e4dd4af8c6",
-    "url": "/otoparkMobile/static/js/main.a77e3c21.chunk.js"
+    "revision": "8ed230dad84f2710d4c1",
+    "url": "/otoparkMobile/static/js/main.ef28de07.chunk.js"
   },
   {
     "revision": "6dd8a3ec30c8ce5b2f3a",

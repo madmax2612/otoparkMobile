@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/otoparkMobile/precache-manifest.70416c6c8490f77b5809398e68117d20.js"
+  "/otoparkMobile/precache-manifest.02997fa8dc75092417931a034f879ce2.js"
 );
 
 self.addEventListener('message', (event) => {
